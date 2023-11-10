@@ -1,0 +1,58 @@
+body{
+	width:auto;
+	height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-direction:row;
+    background-color: #bdbaba;
+    font-size: 25pt;
+}
+body > div{
+    width:250px;
+    height:250px;
+    display: flex;
+    justify-content: space-around;
+	align-items:center;
+	flex-direction:column;
+    float:left;
+}
+.name{
+    width:50%;
+    height:15%;
+    display: flex;
+    justify-content: space-around;
+	align-items:center;
+}
+.points{
+    width:35%;
+    height:33%;
+    display: flex;
+    justify-content: space-around;
+	align-items:center;
+	flex-direction:column;
+    border-radius: 50px;
+    background-color: rgb(239, 242, 20);
+    border:5px black solid;
+}
+button{
+    width:200px;
+	height:70px;
+	background-color: rgb(22, 216, 28);
+	border-radius: 15px;
+    margin: 25px 0  0 0;
+	font-size: 15pt;
+    border:0px;
+    color: rgb(0, 0, 0);
+    box-shadow:  2px 2px 7px rgb(56, 56, 56);
+}
+.number{
+    width:55%;
+    height:50px;
+    display: flex;
+    justify-content: space-around;
+	align-items:center;
+	flex-direction:column;
+    border-radius: 10px;
+    background-color: rgb(15, 138, 182);
+}
